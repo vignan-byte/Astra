@@ -1,0 +1,425 @@
+1:46:04 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:06 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:08 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:09 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:09 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:43 pm [vite] (client) [Unhandled rejection] Error: prompt() is not supported.
+ > saveMemory src/App.tsx:17:49
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+    17 |   const saveMemory=async()=>{const content=window.prompt('What should ASTRA remember?'); if(content){await fetch(`${AP...
+       |                                                   ^
+    18 |   return <main>
+    19 |    <aside><div className="brand"><Sparkles/> <span>ASTRA</span><small>AI AGENT OS</small></div><nav><a className="acti...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:58 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:59 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:46:59 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:57 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:58 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:59 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:59 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:59 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:59 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:47:59 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:48:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:48:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+1:48:00 pm [vite] (client) [Unhandled rejection] TypeError: Failed to fetch
+ > submit src/App.tsx:14:97
+    12 |   const load=async()=>{ try { const [h,t,m,a]=await Promise.all([fetch(`${API}/health`),fetch(`${API}/tasks`),fetch(`$...
+    13 |   useEffect(()=>{load(); const i=setInterval(load,7000); return()=>clearInterval(i)},[])
+    14 |  ...preventDefault(); if(!prompt.trim())return; const res=await fetch(`${API}/tasks`,{method:'POST',headers:{'Content-...
+       |                                                                 ^
+    15 |   const speak=(text:string)=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text))}
+    16 |   const voice=()=>{ const Recognition=(window as any).webkitSpeechRecognition || (window as any).SpeechRecognition; if...
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+

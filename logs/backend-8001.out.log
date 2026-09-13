@@ -1,0 +1,267 @@
+INFO:     127.0.0.1:55766 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54333 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61166 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53656 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59626 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54333 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61166 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53656 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58555 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54522 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58187 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57839 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50141 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54319 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52323 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56446 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56446 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56446 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56446 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65084 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59659 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59293 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59293 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:59293 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:59293 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:59293 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56381 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57479 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60469 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53334 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59074 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57504 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50909 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57832 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57832 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62726 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62659 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63187 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58860 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62108 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50765 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52325 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55034 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63200 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55034 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63200 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63200 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55034 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54877 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56286 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57606 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63425 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62434 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54908 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56539 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61622 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61622 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54716 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61430 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61478 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64751 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58509 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54645 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58130 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58836 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57186 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63956 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51047 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54889 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57651 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62317 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62816 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54613 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52859 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63516 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56605 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62507 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60300 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61779 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63410 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53560 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51669 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60479 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60300 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55750 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63672 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54727 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51902 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59645 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:59645 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:59645 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51435 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56940 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:62043 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64376 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59382 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50708 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61626 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56377 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58702 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54071 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53773 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62609 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55756 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50843 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53921 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58872 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60894 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56539 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56517 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60811 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52468 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55764 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62244 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60366 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65071 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60574 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62910 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55376 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62661 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56685 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62146 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62146 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62661 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56685 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54945 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60116 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55524 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61938 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60908 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57849 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49322 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61581 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54583 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52975 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59898 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63441 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64397 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58458 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59330 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65511 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53435 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50271 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62092 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54826 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60549 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53384 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50534 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57153 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52528 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52269 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58005 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56567 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52036 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50290 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55182 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54872 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51442 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51005 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60919 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58408 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59332 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59534 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50913 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63229 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61916 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63133 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64215 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61183 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64264 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57365 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59593 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64795 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65497 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51243 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55849 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64460 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64460 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55722 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57513 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55620 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64460 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57513 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55620 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52435 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57557 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57497 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53232 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60479 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59534 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59844 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57442 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65313 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59662 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55101 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62844 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52990 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57564 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65133 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62235 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55073 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59081 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52234 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56143 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59139 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54372 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52685 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53886 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52219 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65533 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53582 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52390 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61925 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50745 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61821 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57249 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64337 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65154 - "GET /audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52218 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52948 - "GET /memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52218 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:52218 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:52218 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:52218 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:52218 - "OPTIONS /tasks HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:58303 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58303 - "POST /chat HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58308 - "GET /openapi.json HTTP/1.1" 200 OK
